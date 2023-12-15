@@ -1,0 +1,487 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.header__logo {
+    width: 10%;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.header__logo-img {
+    width: 100%;
+}
+
+.header__nav {
+    padding-top: 30px;
+}
+
+.header__nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav-item {
+    padding-right: 20px;
+}
+
+.header__nav-list:last-child {
+    padding-right: 10px
+}
+
+.header__nav-item-link{
+    text-decoration: none;
+    color: rgb(104, 103, 103);
+}
+
+.firstview {
+    position: relative;
+}
+
+.firstview__title {
+    position: absolute;
+    left: 20%;
+    top: 10%;
+}
+
+.firstview__title-top,.firstview__title-bottom {
+    color: rgb(171, 8, 119);
+}
+
+.firstview__title-top {
+    font-size: 65px;
+    line-height: 100px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+
+.firstview__title-bottom {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 35px;
+}
+
+.firstview__company {
+    color: rgb(104, 103, 103);
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+.firstview__title span {
+    color: rgb(11, 159, 204);
+}
+
+.firstview__img-container {
+    width: 61%;
+    margin: 0 0 0 auto;
+}
+
+.firstview__img {
+    width: 100%;
+}
+
+.news__inner {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.news__title-top {
+    color: rgb(171, 8, 119);
+    font-size: 15px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.news__title-bottom {
+    color: rgb(104, 103, 103);
+    font-size: 23px;
+    margin-bottom: 40px;
+}
+
+.news__list {
+    list-style: none;
+    border-top: 2px solid rgb(196, 193, 193);
+    padding-top: 20px;
+    border-bottom: 2px solid rgb(196, 193, 193);
+    padding-bottom: 30px;
+}
+
+.news__list-item {
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(196, 193, 193);
+}
+
+.news__list-item-link {
+    text-decoration: none;
+    color: rgb(104, 103, 103);
+}
+
+.news__list span {
+    width: 100px;
+    background-color: rgb(171, 8, 119);
+    color: white;
+    padding: 2px 15px;
+    border-radius: 30px;
+    margin: 0 30px;
+}
+
+.about {
+    background-color: rgb(236, 234, 234);
+    height: 350px;
+    padding: 40px;
+}
+
+.about__title {
+    text-align: center;
+}
+
+.about__title-top {
+    color: rgb(171, 8, 119);
+    font-size: 15px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.about__title-bottom {
+    color: rgb(104, 103, 103);
+    font-size: 23px;
+    margin-bottom: 40px;
+}
+
+.about__content {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.about__content-text-container {
+    color: rgb(104, 103, 103);
+    line-height: 27px;
+    width: 40%;
+}
+
+.about__content-text-top {
+    margin-bottom: 25px;
+}
+
+.about__content-img-container {
+    width: 40%;
+}
+
+.about__content-img {
+    width: 100%;
+}
+
+.service__inner {
+    width: 66%;
+    margin: 80px auto;
+}
+
+.service__title-top {
+    color: rgb(171, 8, 119);
+    font-size: 15px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.service__title-bottom {
+    color: rgb(104, 103, 103);
+    font-size: 23px;
+    margin-bottom: 40px;
+}
+
+.service__content {
+    display: grid;
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+}
+
+.service__content-box1 {
+    background-color: rgb(171, 8, 119);
+    grid-column: 1/2;
+    grid-row: 1/3;
+    padding: 40px 45px;
+}
+
+.service__content-box2 {
+    background-color: rgb(176, 93, 150);
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: space-between;
+    padding: 37px 20px ;
+}
+
+.service__content-box3 {
+    background-color: rgb(182, 140, 170);
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: space-between;
+    padding: 37px 20px;
+}
+
+.service__content-img-container1 {
+    width: 35%;
+    margin: 0 auto;
+}
+
+.service__content-img-container2, .service__content-img-container3 {
+    width: 30%;
+    margin-right: 15px;
+}
+
+.service__content-img {
+    width: 100%;
+}
+
+.service__content-title1 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.service__content-text-container {
+    width: 68%;
+}
+
+.service__content-title2, .service__content-title3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.service__content-text {
+    line-height: 27px;
+}
+
+.blog {
+    background-color: rgb(236, 234, 234);
+    height: 520px;
+    padding: 40px;
+}
+
+.blog__inner {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.blog__title-top {
+    color: rgb(171, 8, 119);
+    font-size: 15px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.blog__title-bottom {
+    color: rgb(104, 103, 103);
+    font-size: 23px;
+    margin-bottom: 40px;
+}
+
+.blog__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog__card-link {
+    text-decoration: none;
+}
+
+.blog__card {
+    width: 30%;
+    position: relative;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.blog__card-img-container {
+    width: 100%;
+}
+
+.blog__card-img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.blog__card-mark {
+    background-color: rgb(171, 8, 119);
+    color: white;
+    width: 40px;
+    padding: 10px 15px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 15px 0 0 0;
+}
+
+.blog__card-text {
+    color: rgb(104, 103, 103);
+    font-weight: bold;
+    line-height: 27px;
+    margin: 20px 20px 30px 20px;
+}
+
+.blog__card-bottom {
+    color: rgb(104, 103, 103);
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px 25px 20px;
+}
+
+.blog__more-button {
+    background-color: white;
+    color: rgb(171, 8, 119);
+    text-decoration: none;
+    display: block;
+    width: 150px;
+    text-align: center;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 30px;
+    border: 2px solid rgb(171, 8, 119);
+}
+
+.company__inner {
+    width: 50%;
+    margin: 80px auto;
+}
+
+.company__title-top {
+    color: rgb(171, 8, 119);
+    font-size: 15px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.company__title-bottom {
+    color: rgb(104, 103, 103);
+    font-size: 23px;
+    margin-bottom: 40px;
+}
+
+.company table {
+    width: 100%;
+    color: rgb(104, 103, 103);
+    margin-bottom: 80px;
+}
+
+.company tr {
+    border: 1px solid rgb(196, 193, 193);
+}
+
+.company th {
+    width: 30%;
+    background-color: rgb(236, 234, 234);
+    text-align: left;
+    padding: 20px ;
+    padding-left: 15px;
+    border-right: 1px solid rgb(196, 193, 193);
+}
+
+.company td {
+    width: 70%;
+    padding: 20px;
+    padding-left: 15px;
+}
+
+.contact__container {
+    display: flex;
+    height: 300px;
+    margin-bottom: 90px;
+}
+
+.contact__recruit {
+    width: 50%;
+    background-image: url("../img/recruit.png");
+    background-size: cover;
+    text-align: center;
+}
+
+.contact__interview {
+    width: 50%;
+    background-image: url("../img/interview.png");
+    background-size: cover;
+    text-align: center;
+}
+
+.contact__container a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 130px auto;
+}
+
+.contact__text {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(104, 103, 103);
+}
+
+.contact__border {
+    width: 2px;
+    height: 40px;
+    background-color: rgb(171, 8, 119);
+    margin: 25px auto;
+}
+
+.contact__button {
+    width: 230px;
+    display: block;
+    margin: 0 auto;
+    padding: 30px;
+    background: linear-gradient(90deg, rgb(246, 13, 130), rgb(171, 8, 119));
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 17px;
+    box-shadow: 0 10px 0 rgb(131, 7, 92);
+    position: relative;
+}
+
+.contact__button::before {
+    content: "";
+    position: absolute;
+    top: 23px;
+    left: 30px;
+    background-image: url(../img/mailicon.svg);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+
+}
+
+.contact {
+    margin-bottom: 80px;
+}
+
+footer {
+    background-color: rgb(236, 234, 234);
+    height: 60px;
+    text-align: center;
+}
+
+.copyright {
+    color: rgb(104, 103, 103);
+    font-size: 14px;
+    display: inline-block;
+    margin: 23px auto;
+}
+
+
+
