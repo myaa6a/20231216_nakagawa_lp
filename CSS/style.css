@@ -117,6 +117,7 @@ header {
 .news__list-item-link {
     text-decoration: none;
     color: rgb(104, 103, 103);
+    font-size: 1vw;
 }
 
 .news__list span {
@@ -163,6 +164,7 @@ header {
     color: rgb(104, 103, 103);
     line-height: 27px;
     width: 40%;
+    font-size: 1vw;
 }
 
 .about__content-text-top {
@@ -201,6 +203,7 @@ header {
     grid-template-rows: 200px 200px;
     grid-template-columns: 1fr 1fr;
     color: white;
+    font-size: 1vw;
 }
 
 .service__content-box1 {
@@ -329,14 +332,15 @@ header {
     font-weight: bold;
     line-height: 27px;
     margin: 20px 20px 30px 20px;
+    font-size: 1vw;
 }
 
 .blog__card-bottom {
     color: rgb(104, 103, 103);
-    font-size: 12px;
     display: flex;
     justify-content: space-between;
     margin: 0 20px 25px 20px;
+    font-size: 1vw;
 }
 
 .blog__more-button {
